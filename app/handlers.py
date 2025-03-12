@@ -19,4 +19,3 @@ async def echo(message: Message):
     if msg == "links":
         await message.answer("If you have questions - text me", reply_markup=kb.my_tg)
 
-
